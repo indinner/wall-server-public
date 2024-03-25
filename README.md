@@ -3,10 +3,10 @@
 void addSchool(){
         School school=new School();
         school.setSchoolCode(10002);
-        school.setSchoolName("锦绣校区");
-        school.setAdminID("oYTvu5HqpO0jNN-Uw_mK5thbqlLM");
-        school.setHeadImg("https://cdn.indinner.com/fig/headimg/WechatIMG62.jpeg");
-        school.setSuccessMsg("投稿发布成功,墙墙审核通过后会发布到空间!届时会有消息提醒~\n 墙姐(滨湖):2411441 \n墙姐(锦绣):783490125 \n 墙姐(微信):hfnuwall");
+        school.setSchoolName("学校名");
+        school.setAdminID("管理员openid");
+        school.setHeadImg("头像地址");
+        school.setSuccessMsg("投稿发布成功,墙墙审核通过后会发布到空间!届时会有消息提醒~");
         mongoTemplate.save(school);
     }
 ```
