@@ -1,3 +1,11 @@
+
+## 搭建
+* 主要关注local.prop配置文件，里面需要配置小程序appid,小程序secret，cos存储桶需要的secretId，secretKey，regional，bucketName
+* utils/cosB文件夹里的cosclient也需要配置secretId，secretKey
+* utils/cosB/putfile文件的upfile方法返回值前缀改成你自己的cos配置的cdn地址（或者使用默认源站地址）
+* 其他一些小方法需要填一写存储🪣参数的你跑起来测试的时候知道怎么写
+
+
 首先创建学校
 ```java
 void addSchool(){
